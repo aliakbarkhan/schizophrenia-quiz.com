@@ -1,0 +1,180 @@
+ <html>
+<head>
+<title>JavaScript Quiz</title>
+</head>
+     <link rel="stylesheet" href="style.css">
+     <style>
+body {
+background-color:brown;
+font-family: Helvetica;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px gray solid;
+margin: auto;
+padding: 10px;
+background-color: white;
+
+border-radius: 10px;
+}
+
+#header {
+margin-top: 0;
+border: 2px solid black;
+padding: 5px;
+height: 250px;
+background: beige;
+background-image: url("https://t3.ftcdn.net/jpg/02/19/90/52/360_F_219905201_MHbxG8Hpmg9agAnsPf2RPT7kbEA5aw9m.jpg");
+color: white;
+}
+         button{
+             margin: 0;
+  position: absolute;
+  top: 213%;
+  left: 55%;
+              border-radius: 8px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+             background: transparent;
+             color:black;
+    border: 1px solid black;
+    padding: 11px 34px;
+    font-size: 18px;
+             font-weight: bold;
+             
+         }
+         button:hover{
+             border: 1px solid #f44336;
+    background: #f44336;
+    transition: 0.5s;
+         }
+         
+         input {
+width: 30px;
+
+}
+         h2{
+             padding-left: 16px;
+             font-size: 20;
+         }
+           
+</style>
+
+
+<body>
+<div id="main"><!-- open main div -->
+<div id="header"><!-- open header div -->
+<h1><span style="color: black">Schizophrenia Quiz</span></h1>
+</div><!-- close header div -->
+
+<form id="form1">
+    
+    <br><h2>*<u>All questions are mandatory</u></h2><br>
+
+<h2><span style="font-size: 20">1.Has your sleep schedule been disturbed recently?</span></h2>
+<input type="radio" name="variable" value="10" id="var_string" />Yess.<br>
+<input type="radio" name="variable" value="0" id="var_join" />No<br>
+<input type="radio" name="variable" value="5" id="var_info" />Sometimes<br>
+
+<h2>2.Have you felt a change in your appetite recently?</h2>
+<label for="var_string"><input type="radio" name="variable1" value="10" id="var_string" />Yess.</label><br>
+<label for="var_join"><input type="radio" name="variable1" value="0" id="var_join" />No</label><br>
+<label for="var_info"><input type="radio" name="variable1" value="5" id="var_info" />Sometimes</label><br>
+
+    <h2>3.Do you have trouble concentrating on regular day to day things?</h2>
+<label for="var_string"><input type="radio" name="variable2" value="10" id="var_string" />Yess.</label><br>
+<label for="var_join"><input type="radio" name="variable2" value="0" id="var_join" />No</label><br>
+<label for="var_info"><input type="radio" name="variable2" value="5" id="var_info" />Sometimes</label><br>
+
+    
+    <h2>4.Have you had any strange tastes, smells or vision, lately?</h2>
+<label for="var_string"><input type="radio" name="variable3" value="10" id="var_string" />Yess.</label><br>
+<label for="var_join"><input type="radio" name="variable3" value="0" id="var_join" />No</label><br>
+<label for="var_info"><input type="radio" name="variable3" value="5" id="var_info" />Sometimes</label><br>
+
+     
+     <h2>5.Do you have trouble communicating with people around you?</h2>
+<label for="var_string"><input type="radio" name="variable4" value="10" id="var_string" />Yess.</label><br>
+<label for="var_join"><input type="radio" name="variable4" value="0" id="var_join" />No</label><br>
+<label for="var_info"><input type="radio" name="variable4" value="5" id="var_info" />Sometimes</label><br>
+
+
+<h2>6.Has anything lately mentally disturbed you (like death of a family member, close friend , etc.)?</h2>
+<label for="var_string"><input type="radio" name="variable5" value="10" id="var_string" />Yess.</label><br>
+<label for="var_join"><input type="radio" name="variable5" value="0" id="var_join" />No</label><br>
+<label for="var_info"><input type="radio" name="variable5" value="5" id="var_info" />Sometimes</label><br>
+
+
+<h2>7.Have you felt that people on the radio or T.V were talking about you in their reports, or giving you special messages?</h2>
+<label for="var_string"><input type="radio" name="variable6" value="100" id="var_string" />Yess.</label><br>
+<label for="var_join"><input type="radio" name="variable6" value="0" id="var_join" />No</label><br>
+<label for="var_info"><input type="radio" name="variable6" value="100" id="var_info" />Sometimes</label><br>
+
+<h2>8.Do you ever feel like you are being spied upon like someone is following you or conspiring against you?</h2>
+<label for="var_string"><input type="radio" name="variable7" value="100" id="var_string" />Yess.</label><br>
+<label for="var_join"><input type="radio" name="variable7" value="0" id="var_join" />No</label><br>
+<label for="var_info"><input type="radio" name="variable7" value="100" id="var_info" />Sometimes</label><br>
+
+<h2>9.Have you felt under the control of someone else other than yourself?</h2>
+<label for="var_string"><input type="radio" name="variable8" value="100" id="var_string" />Yess.</label><br>
+<label for="var_join"><input type="radio" name="variable8" value="0" id="var_join" />No</label><br>
+<label for="var_info"><input type="radio" name="variable8" value="100" id="var_info" />Sometimes</label><br>
+
+<h2>10.Have you ever ever felt like your action, feelings or urges are being controlled by some external force?</h2>
+<label for="var_string"><input type="radio" name="variable9" value="100" id="var_string" />Yess.</label><br>
+<label for="var_join"><input type="radio" name="variable9" value="0" id="var_join" />No</label><br>
+<label for="var_info"><input type="radio" name="variable9" value="100" id="var_info" />Sometimess</label><br>
+
+
+<h2>11.Have you ever heard voices/people talking about you when no-one else is around/you are on your own?</h2>
+<label for="var_string"><input type="radio" name="variable10" value="100" id="var_string" />Yess.</label><br>
+<label for="var_join"><input type="radio" name="variable10" value="0" id="var_join" />No</label><br>
+<label for="var_info"><input type="radio" name="variable10" value="100" id="var_info" />Sometimes</label><br><br>
+<button type="submit" form="form1" value="Submit">Submit</button>
+<br><a href="file:///C:/Users/akbar/Desktop/sdp/eg.html?"class="hero-btn-newblack"><span style="font-size: 16px">Try Again</span></a>
+
+</form>
+
+
+
+<br><p>Your score is: <span id="grade">__</span></p>
+<p id="grade2"></p>
+</div><!-- close main div -->
+<script>
+document.getElementById("form1").onsubmit=function() {
+       variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
+    variable1 = parseInt(document.querySelector('input[name = "variable1"]:checked').value);
+    variable2 = parseInt(document.querySelector('input[name = "variable2"]:checked').value);
+    variable3 = parseInt(document.querySelector('input[name = "variable3"]:checked').value);
+    variable4 = parseInt(document.querySelector('input[name = "variable4"]:checked').value);
+    variable5 = parseInt(document.querySelector('input[name = "variable5"]:checked').value);
+    variable6 = parseInt(document.querySelector('input[name = "variable6"]:checked').value);
+    variable7 = parseInt(document.querySelector('input[name = "variable7"]:checked').value);
+    variable8 = parseInt(document.querySelector('input[name = "variable8"]:checked').value);
+    variable9 = parseInt(document.querySelector('input[name = "variable9"]:checked').value);
+    variable10 = parseInt(document.querySelector('input[name = "variable10"]:checked').value);
+	   
+
+
+	   result = variable +variable1 +variable2+variable3+variable4+variable5+variable6+variable7+variable8+variable9+variable10;
+
+	document.getElementById("grade").innerHTML = result;
+
+    
+if (result == 0) {result2 = "You are perfectly fine no need to worry"};
+if (result <= 60) {result2 = "Don't worry you dont have Schizophrenia, You just have common anxiety problem do feel free to contact us <br/>Here are some video to help you <a href=https://youtu.be/WWloIAQpMcQ> Click Here</a>";};
+if (result > 60) {result2 = "No need to worry! these results show that you have symptoms of Schizophrenia<br/>There is no need to panic!Schizophrenia is of many level and curable at the earliest do contact us at immediately to help us examine more"};
+document.getElementById("grade2").innerHTML = result2;
+
+
+
+return false; // required to not refresh the page; just leave this here
+} //this ends the submit function
+
+</script>
+
+</body>
+
+</html>
