@@ -1,0 +1,1 @@
+# schizophrenia-quiz.com
